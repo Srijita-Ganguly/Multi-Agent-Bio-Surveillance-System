@@ -2,7 +2,7 @@
 *Gemini-driven multi-agent system that monitors global health signals and scientific insights to detect outbreaks and flag emerging threats.*
 ### Run the Notebook
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
-https://colab.research.google.com/github/Srigong10/Multi-Agent-Bio-Surveillance-System/blob/main/Multi_Agent_Bio_Surveillance_System.ipynb)
+https://colab.research.google.com/github/Srijita-Ganguly/Multi-Agent-Bio-Surveillance-System/blob/main/Multi_Agent_Bio_Surveillance_System.ipynb)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Demo Video
@@ -41,7 +41,7 @@ The following are the key features this system includes,
 To run the Jupyter Notebook without installing anything locally, open it directly in Google Colab:
 
 🔗 **Google Colab Link:**  
-https://colab.research.google.com/github/Srigong10/Multi-Agent-Bio-Surveillance-System/blob/main/Multi_Agent_Bio_Surveillance_System.ipynb
+https://colab.research.google.com/github/Srijita-Ganguly/Multi-Agent-Bio-Surveillance-System/blob/main/Multi_Agent_Bio_Surveillance_System.ipynb
 
 ## Limitations and Future Improvements
 **1. Memory (Long Term Memory) Addition:** The system lacks persistent memory, limiting continuity across interactions. Integrating scalable memory would enhance contextual understanding.
