@@ -10,6 +10,57 @@ https://colab.research.google.com/github/Srijita-Ganguly/Multi-Agent-Bio-Surveil
 Watch the demo of the Multi-Agent Bio-Surveillance System in action on the GoogleADK Web UI.
 The main demo starts at 1:50, where the agent begins answering the user's queries related to news and research on disease outbreaks.
 [![Watch the Demo](https://img.youtube.com/vi/VooSqpvJVOs/hqdefault.jpg)](https://www.youtube.com/watch?v=VooSqpvJVOs)
+## Installation
+### 1. Clone the repository
+
+```bash
+git clone <repository-url>
+cd Multi_Agent_Biosurveillance_System
+```
+
+### 2. Create a virtual environment (recommended)
+
+**Windows**
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+**Linux/macOS**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 3. Install the required dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Configure API Keys
+
+Create a `.env` file inside the agent package directory and add the following:
+
+```text
+GOOGLE_API_KEY=your_google_ai_api_key
+SERPER_API_KEY=your_serper_api_key
+NCBI_API_KEY=your_ncbi_api_key
+```
+
+### 5. Start the application
+
+From the project root, launch the ADK Web UI:
+
+```bash
+adk web
+```
+
+After the server starts, open the local URL displayed in the terminal (typically `http://127.0.0.1:8000`) in your browser.
+
+
 
 ## PROJECT OVERVIEW: 
 This is a multi-agent bio-surveillance system powered by Gemini containing sequential workflow with custom tools to scan real-time news and research publications, and to extract the critical information of the emerging pathogens.
