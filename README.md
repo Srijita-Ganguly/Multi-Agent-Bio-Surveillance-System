@@ -41,7 +41,7 @@ The following are the key features this system includes,
 ### 1. Clone the repository
 
 ```bash
-git clone <>
+git clone https://github.com/Srijita-Ganguly/Multi-Agent-Bio-Surveillance-System.git
 cd Multi_Agent_Biosurveillance_System
 ```
 
